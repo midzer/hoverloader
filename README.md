@@ -13,11 +13,11 @@ Right after page load hoverloader adds `<link rel="preload">` for all `a` elemen
 It works for image (gif|jpg|jpeg|tiff|png) and html links.
 
 ## Demo
-Right now hoverloader is used on https://feuerwehr-eisolzried.de/media/
+hoverloader is used on https://feuerwehr-eisolzried.de/media/
 
 ## How to add
 Simply include `<script src="/js/hoverloader.min.js" async></script>` right before the `</body>` tag.
 
 ## Browser support
-Right now only Chrome > 55 and Opera > 43.
+Currently only Chrome > 55 and Opera > 43.
 For recent support check https://caniuse.com/#search=preload
