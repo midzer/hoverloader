@@ -12,7 +12,7 @@ Right after page load hoverloader adds `<link rel="preload">` for all `a` elemen
 
 It works for image (gif|jpg|jpeg|tiff|png) and html links.
 
-**DEMO**
+## Demo
 Right now hoverloader is used on https://feuerwehr-eisolzried.de/media/
 
 ## How to add
