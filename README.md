@@ -8,14 +8,14 @@ Sure, because after clicking on the link, the resource is already in cache and c
 This is where `<link rel="preload">` comes in handy:
 "Using <link rel="preload">, browsers can be informed to prefetch resources without having to execute them, allowing fine-grained control over when and how resources are loaded." (from caniuse.com)
 
-Right after page load hoverloader adds `<link rel="preload">` for all `a` elements to your `body` on `mouseenter` event. It is removed safely on `mouseleave`.
+Right after page load hoverloader silently adds `<link rel="preload">` for all `a` elements to your `body` on `mouseenter` event. It is removed safely on `mouseleave`.
 
 It works for image (gif|jpg|jpeg|tiff|png) and html links.
 
 ## Demo
 hoverloader is used on https://feuerwehr-eisolzried.de/media/
 
-## How to add
+## How to use
 Simply include `<script src="/js/hoverloader.min.js" async></script>` right before the `</body>` tag.
 
 ## Browser support
